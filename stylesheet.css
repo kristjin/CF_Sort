@@ -1,0 +1,17 @@
+section {
+  display: block;
+}
+
+div {
+  margin: 2px;
+  background-color: white;
+  display: inline-block;
+}
+
+img{
+  padding: 2px;
+}
+
+.selected {
+  border: 2px solid cornflowerblue;
+}
