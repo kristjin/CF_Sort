@@ -1,17 +1,23 @@
-section {
-  display: block;
-}
-
-div {
-  margin: 2px;
-  background-color: white;
-  display: inline-block;
-}
-
 img{
   padding: 2px;
 }
 
+#deck {
+  width: 988px;
+}
+
+.card{
+  display: inline-block;
+}
+
+.sorted{
+  background-color: darkgreen;
+}
+
+.shuffled{
+  background-color: orangered;
+}
+
 .selected {
-  border: 2px solid cornflowerblue;
+  background-color: yellow;
 }
