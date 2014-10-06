@@ -6,16 +6,19 @@ img{
   width: 988px;
 }
 
+#holding{
+  width: 76px;
+  height: 106px;
+  background: blueviolet;
+  display: inline-block;
+}
+
 .card{
   display: inline-block;
 }
 
 .sorted{
   background-color: darkgreen;
-}
-
-.shuffled{
-  background-color: orangered;
 }
 
 .selected {
