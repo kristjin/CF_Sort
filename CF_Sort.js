@@ -5,7 +5,7 @@ $(document).ready(function(){
   var $i, $m, $mSrc, c, $c, $cSrc, m;
 
   function Deck() {
-    this.suits = ['C','D','H','S'];
+    this.suits = ['c','d','h','s'];
     this.ranks = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'];
 
     var theDeck = this;
@@ -21,7 +21,7 @@ $(document).ready(function(){
   function Card(suit, rank){
     this.suit = suit;
     this.rank = rank;
-    this.img = 'img/' + suit + rank + '.png';
+    this.img = 'img/' + this.suit + this.rank + '.png';
   }
 
   function en($source){
@@ -32,13 +32,13 @@ $(document).ready(function(){
     var r = parseInt($source.substr(5));
 
     switch ($source.charAt(4)){
-      case 'C':
+      case 'c':
         return r;
-      case 'D':
+      case 'd':
         return (r+13);
-      case 'H':
+      case 'h':
         return (r+26);
-      case 'S':
+      case 's':
         return (r+39);
       default:
         return null;
